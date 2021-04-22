@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: #F2BE5C;
+  background-size: cover;
+}
+
+div.wrapper1 {
+  margin-top: 100px;
+  color: #254559;
+  transition: all 4s ease-in-out;
+  font-size: 2em;
+}
+
+form {
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
+}
+
+.form-control {
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: white;
+  font-size: 12px;
+  margin-bottom: 16px;
+}
+
+input {
+  height: 45px;
+}
+
+form .submit {
+  background: #D93D1A;
+  border-color: transparent;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  width: 400px;
+}
+
+form .submit:hover {
+  background: #F28B50;
+  cursor: pointer;
+}
